@@ -1,0 +1,8 @@
+textlint の設定は [[https://mako-note.com/ja/textlint-emacs/][この記事]] を参考にした。
+しかし日本語だけ使う場合は、不要な物が多かった。
+そのため記事のとおりに作業するのをやめて、
+なるべく textlint のデフォルトに寄せてみることにした。
+
+textlint をインストールした上でシンボリックリンクを貼ればいい。
+
+ln -s ~/private/dotfiles/textlint/textlintrc.json ~/.textlintrc
