@@ -2,6 +2,15 @@
   "plugins": [
     "org"
   ],
+  "filters": {
+     "allowlist": {
+       "allow": [
+         "/\\(.*\\)/",
+         "/\\[.*\\]/",
+         "/~.*~/"
+       ]
+     }
+  },
   "rules": {
     "preset-ja-technical-writing": {
       "no-exclamation-question-mark": false
